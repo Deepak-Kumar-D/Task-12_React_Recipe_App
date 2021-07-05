@@ -87,11 +87,7 @@ function MainPage() {
                     />
 
                     {/* Delete section for removing a recipe */}
-                    <DeleteRecipe
-                      close={close}
-                      // getRecipe={getRecipe}
-                      id={elements.id}
-                    ></DeleteRecipe>
+                    <DeleteRecipe close={close} id={elements.id}></DeleteRecipe>
 
                     {/* Link to open the procedure page */}
                     <Link to={`/more&${name}`}>

@@ -35,8 +35,6 @@ function Form() {
   console.log(errors);
   console.log({ recipes });
 
-  const addIng = () => {};
-
   return (
     <>
       {/* Header and go back to the main page section */}
@@ -81,7 +79,6 @@ function Form() {
             placeholder="Milk"
             {...register("ingredients", { required: true })}
           />
-          <input type="button" value="+" onCLick={addIng} />
         </div>
         {errors.ingredients && <span>This field is required</span>}
 

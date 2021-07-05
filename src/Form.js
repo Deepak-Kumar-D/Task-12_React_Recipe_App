@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { mode } from "./App";
 
 function Form() {
-  const { theme, getRecipe, recipes } = useContext(mode);
+  const { theme, getRecipe } = useContext(mode);
 
   const {
     register,

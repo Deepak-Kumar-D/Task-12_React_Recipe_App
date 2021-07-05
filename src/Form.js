@@ -33,7 +33,6 @@ function Form() {
   };
 
   console.log(errors);
-  console.log({ recipes });
 
   return (
     <>
